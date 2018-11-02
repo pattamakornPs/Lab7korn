@@ -91,7 +91,9 @@ public class MySQLConnect {
             httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs,"UFT-8"));
             httpClient.execute(httpPost);
             Toast.makeText(main,"Completed",Toast.LENGTH_LONG).show();
-        }catch (UnsupportedEncodingException e){e.printStackTrace();}
-        catch (ClientProtocolException e){e.printStackTrace();}catch (IOException e){e.printStackTrace();}
+        }catch (UnsupportedEncodingException e){e.printStackTrace();
+        }catch (ClientProtocolException e){e.printStackTrace();
+        }catch (IOException e){e.printStackTrace();
+        }
     }
 }
